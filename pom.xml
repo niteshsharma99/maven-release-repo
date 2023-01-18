@@ -5,7 +5,7 @@
 
   <groupId>com.mycompany</groupId>
   <artifactId>maven-release-plugin</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.1-SNAPSHOT</version>
   
   <description>Demo project for maven release plugin</description>
 
@@ -48,6 +48,15 @@
 
 <build>
 	<plugins>
+
+      <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <configuration>
+              <source>7</source>
+              <target>7</target>
+          </configuration>
+      </plugin>
 
     <plugin>
       <groupId>org.apache.maven.plugins</groupId>
