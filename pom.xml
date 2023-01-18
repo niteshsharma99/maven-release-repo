@@ -5,7 +5,7 @@
 
   <groupId>com.mycompany</groupId>
   <artifactId>maven-release-plugin</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   
   <description>Demo project for maven release plugin</description>
 
@@ -31,7 +31,7 @@
     <scm>
         <developerConnection>scm:git:https://github.com/niteshsharma99/maven-release-repo.git</developerConnection>
         <url>https://github.com/niteshsharma99/maven-release-repo</url>
-        <tag>HEAD</tag>
+        <tag>maven-release-plugin-0.0.1</tag>
     </scm>
 
   <distributionManagement>
