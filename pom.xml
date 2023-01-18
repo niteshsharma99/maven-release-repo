@@ -31,7 +31,7 @@
     <scm>
         <developerConnection>scm:git:https://github.com/niteshsharma99/maven-release-repo.git</developerConnection>
         <url>https://github.com/niteshsharma99/maven-release-repo</url>
-        <tag>maven-release-plugin-0.0.1</tag>
+        <tag>feature1</tag>
     </scm>
 
   <distributionManagement>
